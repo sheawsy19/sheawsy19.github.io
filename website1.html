@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome To Shea's First Game.</title>
+    <link rel="stylesheet" href="mystyleforweb.css">
+    <script src="move.js" defer></script>
+  </head>
+  <body>
+    <div class="top-banner">
+    <img src="image/banner-cat.png" class="banner-cat">
+    <span class="banner-text">MMMM大促销！等你抱回家ฅ^•ﻌ•^ฅ</span>
+  </div>
+  <div id="affection-bar">
+    <img src="image/heart.png" class="heart-icon">
+    <span id="affection-value">0</span>/100
+</div>
+
+    <img src="image/huanying.gif" class="gif-style">
+    <div id="homepage-container">
+    <div id="welcomeMessage"></div>
+
+    <div id="nameForm" style="display: none;">
+
+        <input type="text" id="nameInput" placeholder="输入姓名"></div>
+
+        <div id="postSubmitContent" style="display: none;">
+        <div class="background-image">
+            <div class="text-overlay">你想收养一只可爱的咪姆吗？</div>
+        </div>
+        <button class="image-button">
+            <img src="image/button.png">
+        </button>
+    </div>
+</div>
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-text" id="modalText">摸摸咪姆增加亲密度！</div>
+    <img class="modal-content" id="modalImage">
+</div>
+
+
+  </body>
+</html>
